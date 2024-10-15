@@ -45,6 +45,8 @@ class ImageDisplayFragment : Fragment() {
         }
     }
 
+    // makes function static
+    //  It's a place to share functions and properties with all class instances
     companion object {
         fun newInstance(images: IntArray) =
             ImageDisplayFragment().apply {
